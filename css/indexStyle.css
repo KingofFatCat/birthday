@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      /*overflow: hidden;*/
+     overflow: hidden;
+      
+    }
+    #starss{
+    	width: 100%;
+    	height: 100%;
+    	background: url(../img/timg.jpg) 100% 100% no-repeat;
+    }
+    
+    #stars {
+      margin: 0 auto;
+      max-width: 1600px;
+      position: fixed;
+      height: 80%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 2;
+    }
+.star {
+      display: block;
+　　　 width: 1px;
+      background: transparent;
+      position: relative;
+      opacity: 0;
+      /*过渡动画*/ 
+      animation: star-fall 3s linear infinite;
+      -webkit-animation: star-fall 3s linear infinite;
+      -moz-animation: star-fall 3s linear infinite;
+    }
+    
+    .star:after {
+      content: '';
+      display: block;
+      border: 0px solid #fff;
+      border-width: 0px 90px 2px 90px;
+      border-color: transparent transparent transparent rgba(255, 255, 255, .5);
+      box-shadow: 0 0 1px 0 rgba(255, 255, 255, .1);
+      /*变形*/       
+      transform: rotate(-45deg) translate3d(1px, 3px, 0);
+      -webkit-transform: rotate(-45deg) translate3d(1px, 3px, 0);
+      -moz-transform: rotate(-45deg) translate3d(1px, 3px, 0);
+      transform-origin: 0% 100%;
+      -webkit-transform-origin: 0% 100%;
+      -moz-transform-origin: 0% 100%;
+    }
+@keyframes star-fall {
+      0% {
+        opacity: 0;
+        transform: scale(0.5) translate3d(0, 0, 0);
+        -webkit-transform: scale(0.5) translate3d(0, 0, 0);
+        -moz-transform: scale(0.5) translate3d(0, 0, 0);
+      }
+      50% {
+        opacity: 1;
+        transform: scale(0.8) translate3d(-200px, 200px, 0);
+        -webkit-transform: scale(0.8) translate3d(-200px, 200px, 0);
+        -moz-transform: scale(0.8) translate3d(-200px, 200px, 0);
+      }
+      100% {
+        opacity: 0;
+        transform: scale(1.2) translate3d(-300px, 300px, 0);
+        -webkit-transform: scale(1.2) translate3d(-300px, 300px, 0);
+        -moz-transform: scale(1.2) translate3d(-300px, 300px, 0);
+      }
+}
+#words{
+	font-family: "微软雅黑";
+	font-size: 50px;
+	opacity:0.5;
+	color: transparent;
+	-webkit-text-stroke: 0.5px white;
+	letter-spacing: 0.04em;
+	position:relative;
+	-webkit-animation:myfirst 1s;
+	-webkit-animation-fill-mode: forwards;
+	background: transparent;
+	display: block;
+}
+@keyframes myfirst
+{
+	0%   { left:35%; top:-100px; display：none;}
+	75%  {	left:35%; top:220px;}
+	100% { left:35%; top:200px;}
+}
+#words2{
+	font-family: "微软雅黑";
+	font-size: 50px;
+	opacity:0.5;
+	color: transparent;
+	-webkit-text-stroke: 0.5px white;
+	letter-spacing: 0.04em;
+	position:relative;
+	-webkit-animation:myfirst2 1s;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-delay: 1s;
+	background: transparent;
+	display: block;
+	left:30%; top:-200px;
+}
+@keyframes myfirst2
+{
+	0%   { left:30%; top:-100px; display：none;}
+	75%  {	left:30%; top:270px;}
+	100% { left:30%; top:250px;}
+}
+.lion{
+	widows: 25px;
+	height: 25px;
+}
+#love{
+	width: 100%;
+	height: 100%;
+	margin:0px;
+	background: url(../img/index/love.jpg) no-repeat;
+	background-size:100% 100%;
+	background-attachment:fixed;
+}
+.down_btn{
+	width: 68px;
+	height: 34px;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	border-top-left-radius: 34px;
+	border-top-right-radius: 34px;
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.3);
+}
+.down_btn img{
+	position: absolute;
+	bottom: 5px;
+	margin-left: 19px;
+	width: 30px;
+	height: 30px;
+	animation: move 2s infinite;
+}
+#love img{
+	width: 100px;
+	height: 180px;
+	position: absolute;
+	animation: move 2s infinite;
+	-webkit-animation: move 2s infinite;
+}
+#women{
+	display: none;
+}
+#imgball{
+	display: none;
+}
+#wordss img{
+	width: 50%;
+	height: 300px;
+	position: absolute;
+	left: 25%;
+	top: 100px;
+}
+#talk{
+	display: none;
+}
+.chatball{
+	margin:0px;
+	background: url(../img/index/chatball.png) no-repeat;
+	background-size:200px 100px;
+	line-height: 100px;/*让黄色div中的文字内容垂直居中*/
+  text-align: center;/*让文字水平居中*/
+  font-family: STHupo;
+  font-weight: 100;
+  font-size: 25px;
+  color: white;
+}
+#chatball2{
+	-webkit-animation-delay: 0.8s;//延迟
+	animation-delay: 0.8s;
+}
+#chatball3{
+	-webkit-animation-delay: 1.6s;//延迟
+	animation-delay: 1.6s;
+}
+#chatball4{
+	-webkit-animation-delay: 2.4s;//延迟
+	animation-delay: 2.4s;
+}
+.cat{
+	-webkit-animation-delay: 4s;//延迟
+	animation-delay: 4s;
+}
+#chatball5{
+	-webkit-animation-delay: 5s;//延迟
+	animation-delay: 5s;
+}
+#chatball6{
+	-webkit-animation-delay: 6s;//延迟
+	animation-delay: 6s;
+}
+::-webkit-scrollbar{
+display:none;
+}
+.chatball2{
+	margin:0px;
+	background: url(../img/index/chatball2.png) no-repeat;
+	background-size:250px 80px;
+	line-height: 80px;/*让黄色div中的文字内容垂直居中*/
+  text-align: center;/*让文字水平居中*/
+  font-family: STHupo;
+  font-weight: 100;
+  font-size: 10px;
+  color: black;
+}

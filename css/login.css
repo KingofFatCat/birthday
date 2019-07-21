@@ -1,0 +1,99 @@
+html{
+	background-color: #CAFFFF;
+}
+#former{
+				height: 70px;
+				width: 100%;
+				background-color: white;
+			}
+			#div2
+			{
+				height: 700px;
+				width: 100%;
+				background:url(../img/未标题-1.jpg) no-repeat;background-size:100%,100%;
+			}
+			#brandsize{
+				position:relative;
+				width: 80px;
+				height: 80px;
+			}
+			#brandsize2{
+				position:relative;
+				left:150px;
+				height: 70px;
+				width: 60%;
+				
+			}
+			#loginbox{
+				position:relative;
+				top: 100px;
+				left: 35%;
+				width: 25%;
+				height: 400px;
+				background-color: white;
+				text-align: center;
+				font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+				border-radius:25px;
+			}
+			#input1 {
+				position:relative;
+				top:70px;
+				right: 10px;
+			    width: 270px;
+			    height: 42px;
+			    padding-left:42px;
+			    background:url(../img/login/4.jpg) no-repeat;background-size:42px,42px;
+			    }
+			#input2 {
+				position:relative;
+				top:100px;
+				right: 10px;
+			    width: 270px;
+			    height: 42px;
+			    padding-left:42px;
+			    background:url(../img/login/5.jpg) no-repeat;background-size:42px,42px;
+			    }
+			h4{
+				position:relative;
+				top:50px;
+				right: 80px;
+				font-size: 20px;
+			    font-weight: 700;
+			    text-shadow: 0 1px 4px rgba(0,0,0,.2);
+			}
+			button{
+				position:relative;
+				top:120px;
+				right: 10px;
+			    width: 270px;
+			    height: 42px;
+			    background-color: red;
+			    border: none;
+			    border-radius:5px;
+			    font-family:verdana;font-size:120%;color:white;
+			}
+			#p1{
+				position:relative;
+				top:140px;
+				right: 15%;
+			}
+			#p2{
+				position:relative;
+				top:110px;
+				left: 30%;
+			}
+			#p3{
+				position:relative;
+				top:180px;
+				left: 20%;
+			}
+			#p4{
+				position:relative;
+				top:180px;
+				left: 35%;
+}
+#p5{
+	position:relative;
+	top:-150px;
+	left: 20%;
+}

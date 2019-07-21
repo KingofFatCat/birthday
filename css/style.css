@@ -1,0 +1,12 @@
+
+iframe{
+	border:0px solid #0080FF;
+	background-color: #CAFFFF;
+}
+navi{
+	background:url(../img/timg.gif) 100% 100% no-repeat;
+}
+::-webkit-scrollbar{
+display:none;
+}
+

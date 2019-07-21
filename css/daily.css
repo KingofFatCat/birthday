@@ -1,0 +1,171 @@
+html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      /*overflow: hidden;*/
+     overflow: hidden;
+      
+    }
+#single{
+	width: 100%;
+	height: 100%;
+	margin:0px;
+	background: url(../img/backimg/back.jpg) no-repeat;
+	background-size:100% 100%;
+	background-attachment:fixed;
+}
+#double{
+	width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: white;
+}
+.pic{
+	width: 400px;
+	height: 450px;
+	margin:0px;
+	background: url(../img/backimg/back.png) no-repeat;
+	background-size:400px 450px;
+	vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+	
+}
+.pic img{
+	border-radius: 5%; 
+	margin-top:100px
+}
+.showword1{
+	font-family: "STXinwei";
+	font-size: 50px;
+	background: transparent;
+	display: block;
+	position: absolute;
+	left: 30%;
+	top: 200px;
+	-webkit-animation-delay: 1.5s;//延迟
+	animation-delay: 1.5s;
+}
+#single9
+{
+	position: absolute;
+	left: 60%;
+	-webkit-animation-delay: 2s;//延迟
+	animation-delay: 2s;
+}
+#single1
+{
+	position: absolute;
+	left: 60%;
+	top: 200px;
+	-webkit-animation-delay: 3s;//延迟
+	animation-delay: 3s;
+}
+#single2
+{
+	position: absolute;
+	left: 20%;
+	top: 300px;
+	-webkit-animation-delay: 4s;//延迟
+	animation-delay: 4s;
+}
+
+#single3
+{
+	position: absolute;
+	left: 30%;
+	top: 100px;
+	-webkit-animation-delay: 5s;//延迟
+	animation-delay: 5s;
+}
+#single4
+{
+	position: absolute;
+	left: 10%;
+	-webkit-animation-delay: 6s;//延迟
+	animation-delay: 6s;
+}
+#single5
+{
+	position: absolute;
+	top: 100px;
+	-webkit-animation-delay: 7s;//延迟
+	animation-delay: 7s;
+}
+#single6
+{
+	position: absolute;
+	left: 50%;
+	top: 300px;
+	-webkit-animation-delay: 8s;//延迟
+	animation-delay: 8s;
+}
+#single7
+{
+	position: absolute;
+	left: 60%;
+	top: 100px;
+	-webkit-animation-delay: 9s;//延迟
+	animation-delay: 9s;
+}
+#single8
+{
+	position: absolute;
+	left: 10%;
+	top: 200px;
+	-webkit-animation-delay: 10s;//延迟
+	animation-delay: 10s;
+}
+#single9
+{
+	position: absolute;
+	left: 50%;
+	-webkit-animation-delay: 11s;//延迟
+	animation-delay: 11s;
+}
+#single_direc{
+	position: absolute;
+	left: 30%;
+	top: 30px;
+	width: 100px;
+	height: 100px;	
+}
+.down_btn1{
+	width: 68px;
+	height: 34px;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	border-top-left-radius: 34px;
+	border-top-right-radius: 34px;
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.3);
+}
+.down_btn1 img{
+	position: absolute;
+	bottom: 5px;
+	margin-left: 19px;
+	width: 30px;
+	height: 30px;
+	animation: move 2s infinite;
+}
+#backsea{
+	margin:0px;
+	background: url(../img/chat/sea.png) no-repeat;
+	background-size:100% 100%;
+	position: absolute;
+	left: 5%;
+	top: 30%;
+}
+#insea{
+	width: 180px;
+	height: 260px;
+	position: absolute;
+	left: 35%;
+	top: 15%;
+}
